@@ -1,0 +1,27 @@
+#share {
+  background-color: #CFF2F5;
+  display: flex;
+  justify-content: center;
+}
+
+.imagem-poster img{
+  height: 70vh;
+  margin-top: -100px;
+}
+
+.colecao {
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+  padding: 1rem;
+  width: 60vw;
+}
+.colecao h2{
+  font-size: 2rem;
+}
+.colecao p {
+  display: flex;
+  gap: 1rem;
+}

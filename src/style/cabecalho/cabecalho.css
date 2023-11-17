@@ -1,0 +1,28 @@
+#header {
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+}
+
+.cabecalho {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 4rem;
+  padding: 1rem;
+  
+}
+
+.menu-lista {
+  display: flex;
+  gap: 4rem;
+  
+}
+.bnt-sessao {
+  background-color: #000;
+  padding: .6rem;
+  border: 1px solid;
+  border-radius: 2rem;
+  color: #fff;
+}
