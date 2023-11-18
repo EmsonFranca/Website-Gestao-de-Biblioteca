@@ -1,6 +1,7 @@
-@import url(cabecalho/cabecalho.css);
-@import url(catalago/catalago.css);
-@import url(share/share.css);
+@import url(./cabecalho/cabecalho.css);
+@import url(./catalago/catalago.css);
+@import url(./share/share.css);
+@import url(./features/caracteristicas.css);
 @import url();
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
