@@ -1,0 +1,31 @@
+#formulario {
+
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+.container-formulario{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+  box-shadow: 0px 5px 20px -8px rgba(27, 84, 112, 0.60);
+}
+.cabecalho-formulario {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.cabecalho-formulario img {
+  height: 2rem;
+}
+.cabecalho-formulario h2 {
+  font-size: 1.5rem;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}

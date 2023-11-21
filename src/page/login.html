@@ -11,7 +11,7 @@
     <div class="cabecalho">
       <div class="logo">
 
-        <img src="../image/logo-Sapiens.png" alt="Logo da página Sapiens">
+        <a href="../../index.html"><img src="../image/logo-Sapiens.png" alt="Logo da página Sapiens"></a>
 
       </div>
       
@@ -19,12 +19,39 @@
         <nav class="navbar">
           <ul class="menu-lista">
             <li class="menu-item"><a href="#contato">Contate-nos</a></li>
-            <li class="menu-item"><a href="./src/page/login.html" class="bnt-sessao">Iniciar Sessão</a></li>
-            <li class="menu-item"><a href="./src/page/cadastro.html" class="bnt-sessao">Cadastra-se</a></li>
+            <li class="menu-item"><a href="../page/login.html" class="bnt-sessao">Iniciar Sessão</a></li>
+            <li class="menu-item"><a href="../page/cadastro.html" class="bnt-sessao">Cadastra-se</a></li>
           </ul>
         </nav>
       </div>
     </div>
   </header>
+  <main>
+    <section id="formulario">
+      <div class="container">
+
+        <div class="container-formulario">
+          <div class="cabecalho-formulario">
+            <img src="../image/logo-Sapiens.png" alt="">
+            <h2>Iniciar Sessão</h2>
+          </div>
+          <form class="forms">
+            <input type="email" required placeholder="email">
+            <input type="password" placeholder="senha" required>
+            
+            <label for="checkbox">
+              <input type="checkbox" id="checkbox">
+              Lembrar-me
+            </label>
+
+            <input type="submit" value="Iniciar Sessão">
+          </form>
+          <p>Não possui uma conta ? <a href="../page/cadastro.html">Cadastra-se </a></p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+  <footer></footer>
 </body>
 </html>
