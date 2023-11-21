@@ -1,0 +1,33 @@
+#testimonials {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  text-align: center;
+
+  align-items: flex-end;
+}
+.separa{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  width: 100vw;
+}
+.depoimentos {
+  height: 70vh;
+  background-color: #CFF2F5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: 2rem 2rem 0.5rem 0.5rem;
+}
+.depoimentos h2 {
+  font-size: 3rem;
+}
+.depoimento-imagem{
+  padding-right: 2rem;
+}

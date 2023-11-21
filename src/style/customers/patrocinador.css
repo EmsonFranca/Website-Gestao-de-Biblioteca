@@ -1,0 +1,23 @@
+#customers {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.container-customers {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 3rem;
+}
+.container-customers h2 {
+  font-size: 2rem;
+  padding: 3rem;
+}
+
+.patrocinador{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+
+}
