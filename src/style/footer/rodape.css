@@ -1,0 +1,42 @@
+.footer {
+  height: 60vh;
+  background: #03151E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.rodape{
+  /* background: red; */
+  height: 40vh;
+  width: 60vw;
+  
+  display: flex;
+  gap: 4rem; padding: 1rem;
+}
+.menus {
+  display: flex;
+  gap: 2rem;
+  /* background: gray; */
+ 
+}
+.menus ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.modificador{
+  color: #4BC1D2;
+  font-weight: 900;
+}
+.sobre-sapaines{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.sobre-sapaines h2 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
