@@ -1,32 +1,40 @@
+#features {
 
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
 .container-caracteristicas {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
+  width: 90%;
+ 
 }
 .direito{
-
+  
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   gap: 2rem;
+
 }
 .direito img {
-  width: 100vh;
+  width: 100%;
 }
 .direito h2 {
   font-size: 2rem;
+  
 }
 .esquerdo{
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: 1.5rem;
+
 }
 .esquerdo h2 {
   font-size: 2rem;
 }
 .esquerdo img {
-  width: 100vh;
+  width: 100%;
 }
