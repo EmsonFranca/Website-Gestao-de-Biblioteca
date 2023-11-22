@@ -1,0 +1,42 @@
+
+.cont {
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 3rem;
+  text-align: center;
+  padding: 2rem;
+}
+.info {
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.info h1 {
+  font-size: 2rem;
+}
+.formulario-cadastro {
+
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  box-shadow: 0px 5px 20px -8px rgba(27, 84, 112, 0.60);
+}
+.dados {
+
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+  padding: 2rem 0;
+  text-align: start;
+
+}
+
+.formulario-container label {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}

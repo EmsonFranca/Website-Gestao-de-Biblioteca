@@ -2,6 +2,8 @@
   display: flex;
   justify-content: center;
   height: 20vh;
+  background:  #CFF2F5;
+  border-radius: 1rem;
 }
 
 .cabecalho {
@@ -11,6 +13,7 @@
   justify-content: space-around;
   gap: 4rem;
   padding: 1rem;
+  
   
 }
 

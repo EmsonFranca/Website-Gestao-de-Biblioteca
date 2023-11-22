@@ -1,6 +1,6 @@
 #customers {
-  width: 100vw;
   display: flex;
+  padding: 2rem;
   justify-content: center;
 }
 .container-customers {

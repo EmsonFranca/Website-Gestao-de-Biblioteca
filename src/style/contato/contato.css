@@ -1,0 +1,24 @@
+#contato {
+  background-image: url(../../image/contato-fundo.jpg);
+  
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  text-align: start;
+}
+.contato-dados {
+  border-radius: 10px;
+
+  box-shadow: 0px 5px 20px -8px rgba(27, 84, 112, 0.6);
+  padding: 1rem;
+  width: 100%;
+}
+.contato-container {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
