@@ -1,5 +1,5 @@
 .footer {
-  height: 60vh;
+  height: 80vh;
   background: #03151E;
   display: flex;
   flex-direction: column;
@@ -8,17 +8,14 @@
   color: #fff;
 }
 .rodape{
-  /* background: red; */
-  height: 40vh;
-  width: 60vw;
-  
+  width: 80%;
   display: flex;
-  gap: 4rem; padding: 1rem;
+  gap: 4rem;
+  padding: 1rem;
 }
 .menus {
   display: flex;
   gap: 2rem;
-  /* background: gray; */
  
 }
 .menus ul {
@@ -40,3 +37,20 @@
   font-weight: 900;
 }
 
+@media screen and (max-width: 900px)  {
+  .rodape{
+    flex-direction: column;
+    align-items: center;
+  }
+  .sobre-sapaines {
+    gap: 0;
+    align-items: center;
+  }
+  .sobre-sapaines h2{
+    padding-bottom: 1rem;
+  }
+  .sobre-sapaines p {
+    font-size: 15px;
+  }
+
+}

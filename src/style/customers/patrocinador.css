@@ -20,4 +20,19 @@
   grid-template-columns: repeat(5, 1fr);
   gap: 2rem;
   padding-bottom: 2rem;
+  justify-items: center;
+}
+.patrocinador img {
+  width: 40%;
+}
+
+@media screen and (max-width:1024px){
+  .patrocinador {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (max-width:900px){
+  .patrocinador {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

@@ -30,3 +30,9 @@
 .depoimento-imagem{
   padding-right: 2rem;
 }
+
+@media screen and (max-width:900px){
+  .depoimentos h2 {
+    font-size: 2rem;
+  }
+}
