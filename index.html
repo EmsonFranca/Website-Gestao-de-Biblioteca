@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./src/style/style.css">
+  <script type="module" defer src="src/javascript/app.js"></script>
   <title>Sapiens</title>
 </head>
 <body>
@@ -17,6 +18,10 @@
       </div>
       
       <div class="menu">
+        <div class="btn-menu" id="btn-menu">
+          <i class='bx bx-menu'></i>
+          <i class='bx bx-x' ></i>
+        </div>
         <nav class="navbar">
           <ul class="menu-lista">
             <li class="menu-item"><a href="./src/page/contato.html">Contate-nos</a></li>
@@ -136,35 +141,35 @@
         <nav>
           <ul>
             <li class="modificador">Plataforma</li>
-            <li>Home</li>
-            <li>Iniciar Sessão</li>
-            <li>Cadastra-se</li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./src/page/login.html">Iniciar Sessão</a></li>
+            <li><a href="./src/page/cadastro.html">Cadastra-se</a></li>
           </ul>
         </nav>
         <nav>
           <ul>
             <li class="modificador">Aprenda</li>
-            <li>Contato</li>
-            <li>Suporte</li>
-            <li>Blog</li>
-            <li>FAQs</li>
+            <li><a href="./src/page/contato.html">Contato</a></li>
+            <li><a href="#">Suporte</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">FAQs</a></li>
           </ul>
         </nav>
         <nav>
           <ul>
             <li class="modificador">Políticas</li>
-            <li>Privacidade</li>
-            <li>Segurança</li>
-            <li>Termos</li>
+            <li><a href="#">Privacidade</a></li>
+            <li><a href="#">Segurança</a></li>
+            <li><a href="#">Termos</a></li>
           </ul>
         </nav>
         <nav>
           <ul>
             <li class="modificador">Social</li>
-            <li>YouTube</li>
-            <li>Notícias</li>
-            <li>TikTok</li>
-            <li>Instagram</li>
+            <li><a href="#">YouTube</a></li>
+            <li><a href="#">Notícias</a></li>
+            <li><a href="#">TikTok</a></li>
+            <li><a href="#">Instagram</a></li>
           </ul>
         </nav>
       </div>
@@ -175,7 +180,7 @@
           conta hoje.</p>
       </div>
     </div>
-    <p>© sapiens.com.br / Todos os direitos reservados</p>
+    <p class="copy">© sapiens.com.br / Todos os direitos reservados</p>
   </footer>
 
 </body>
