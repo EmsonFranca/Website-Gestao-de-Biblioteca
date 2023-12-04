@@ -2,11 +2,16 @@
   background-color: #CFF2F5;
   display: flex;
   justify-content: center;
+  align-items: center;
 
 }
-
+.imagem-poster {
+  display: flex;
+  justify-content: space-around;
+}
 .imagem-poster img{
   height: 70vh;
+  width: 80%;
   margin-top: -100px;
 }
 

@@ -7,12 +7,9 @@
 }
 .separa{
   display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  justify-content: space-between;
   align-items: flex-end;
+  gap: 3rem;
 
-  width: 100vw;
 }
 .depoimentos {
   height: 70vh;
@@ -27,12 +24,18 @@
 .depoimentos h2 {
   font-size: 3rem;
 }
-.depoimento-imagem{
-  padding-right: 2rem;
+.depoimento-imagem img{
+  /* padding-right: 2rem; */
+  width: 90%;
 }
 
 @media screen and (max-width:900px){
+  .depoimentos {
+    height: 50vh;
+    
+  }
   .depoimentos h2 {
     font-size: 2rem;
   }
+
 }
